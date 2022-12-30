@@ -17,7 +17,7 @@ async def maintainers(b,m):
     except Exception:
                 await b.send_message(
                     chat_id=m.chat.id,
-                    text="Made with ❤️ By [Critical Cobra](https://t.me/Critical_cobra)/nCredit goes to Developers",
+                    text="Made with ❤️ By [Critical Cobra](https://t.me/Critical_cobra)",
                     
                     reply_markup=InlineKeyboardMarkup(
                         [
